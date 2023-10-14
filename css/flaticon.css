@@ -1,0 +1,50 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 12/07/2018 01:46
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+flaticon-phone-call
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+font-style: normal;
+}
+
+.flaticon-phone-call:before { content: "\f100"; }
+.flaticon-contact:before { content: "\f101"; }
+.flaticon-smartphone:before { content: "\f102"; }
+.flaticon-placeholder-1:before { content: "\f103"; }
+.flaticon-network:before { content: "\f104"; }
+.flaticon-sketch:before { content: "\f105"; }
+.flaticon-school:before { content: "\f106"; }
+.flaticon-family-room:before { content: "\f107"; }
+.flaticon-lawyer-2:before { content: "\f108"; }
+.flaticon-bank:before { content: "\f109"; }
+.flaticon-trial:before { content: "\f10a"; }
+.flaticon-placeholder:before { content: "\f10b"; }
+.flaticon-hand-shake:before { content: "\f10c"; }
+.flaticon-world:before { content: "\f10d"; }
+.flaticon-idea:before { content: "\f10e"; }
+.flaticon-analytics:before { content: "\f10f"; }
+.flaticon-lawyer-1:before { content: "\f110"; }
+.flaticon-briefcase:before { content: "\f111"; }
+.flaticon-lawyer:before { content: "\f112"; }
+.flaticon-stopwatch:before { content: "\f113"; }
+.flaticon-avatar:before { content: "\f114"; }

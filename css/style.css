@@ -1,0 +1,853 @@
+/* ------------------------------------------ */
+/*         General & Basic Styles
+/* ------------------------------------------ */
+
+body,html
+{
+	height:100%
+}
+
+body
+{
+	font-family: "DinNextRegular";
+}
+
+
+h1,h2,h3,h4,h5,h6
+{
+	margin-top:0;
+	margin-bottom:0;
+	list-style:none
+}
+
+ul
+{
+	margin-bottom:0;
+	padding-right:0;
+	list-style:none
+}
+
+p
+{
+	margin-bottom:0
+}
+
+a
+{
+	text-decoration:none!important;
+	outline:none;
+	-webkit-transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	-o-transition:all 0.3s;
+	transition:all 0.3s;
+}
+
+a:hover, a:active, a:focus {
+    outline: 0;
+}
+
+.center-block
+{
+	float:none
+}
+
+.background-cover
+{
+	-webkit-background-size:cover!important;
+	-moz-background-size:cover!important;
+	-o-background-size:cover!important;
+	background-size:cover!important;
+}
+
+input,
+textarea,
+button,
+select
+{
+	outline:none;
+}
+
+input[type="number"]::-webkit-inner-spin-button
+{
+   -webkit-appearance: none;
+    display: none;
+}
+
+
+
+
+/* ------------------------------------------ */
+/*         Header
+/* ------------------------------------------ */
+
+.header 
+{
+	width:100%;
+	position:fixed;
+	right:0;
+	top:0;
+	z-index:999;
+	padding:0 40px;
+	border-bottom:1px solid rgba(255,255,255,0.2);
+	background:none;
+	-webkit-transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	-o-transition:all 0.3s;
+	transition:all 0.3s;
+}
+
+.header.navbar-fixed-top
+{
+	position:fixed;
+    border-color: #dedede;
+	background-color:#fff
+}
+
+.header.navbar-fixed-top .menu li a
+{
+	color:#000;
+    height: 90px;
+    line-height: 85px;
+}
+
+.header.navbar-fixed-top .logo
+{
+	width: 170px;
+	margin-top:20px
+}
+
+.header .logo
+{
+	margin-top:10px;
+	float:right;
+	margin-top:25px;
+	-webkit-transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	-o-transition:all 0.3s;
+	transition:all 0.3s;
+}
+
+.header .logo img
+{
+	max-width:100%;
+}
+
+.header .openMenu
+{
+	display:block;
+	height:90px;
+	line-height:90px;
+	text-align:center;
+	font-size:17px;
+	color:#000;
+	cursor:pointer;
+	font-size:30px;
+	display:none;
+	float:left;
+	-webkit-transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	-o-transition:all 0.3s;
+	transition:all 0.3s;
+}
+
+
+
+.header .menu
+{
+	float:left;
+}
+
+.header .menu li
+{
+	float:right;
+	padding:0 20px; 
+}
+
+.header .menu li a
+{
+	display:block;
+	height:140px;
+	text-align:center;
+	font-size:20px;
+	color:#ffffff;
+	position:relative;
+	line-height:135px
+}
+
+.header .menu li a:before
+{
+	content:"";
+	height:3px;
+	background:none;
+	width:0;
+	position:absolute;
+	bottom:0;
+	left:0;
+	display:block;
+	-webkit-transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	-o-transition:all 0.3s;
+	transition:all 0.3s;
+}
+
+
+.header .menu li a:hover:before,
+.header .menu li a.active:before
+{
+	background-color:#ffba00;
+	width:100%
+}
+
+
+/* ------------------------------------------ */
+/*         Slider
+/* ------------------------------------------ */
+
+.bx-wrapper
+{
+	border:none;
+	margin:0;
+}
+
+.bx-wrapper .bx-viewport
+{
+    border:none;
+    background:none;
+    border:0;
+    box-shadow:none;
+    left:0;
+}
+
+.background-slider
+{
+    background-color:rgba(5, 4, 4, 0.60);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.slider
+{
+	position:relative;
+}
+
+.slider img
+{
+	height:768px;
+	width:100%
+}
+
+.sliderDetails
+{
+	position:absolute;
+	left:0;
+	top:0;
+	width: 100%;
+	max-width:100%;
+	height:auto;
+	z-index:99;
+	padding:300px 0 0;
+	text-align:center;
+}
+
+.sliderDetails h2
+{
+	font-size:50px;
+	color:#fff;
+	font-family: "DinNextBold";
+	margin-bottom:50px
+}
+
+.sliderDetails p
+{
+	font-size:35px;
+	color:#fff;
+	line-height:54px
+}
+
+
+.bx-wrapper .bx-pager
+{
+	padding-top:0
+}
+
+.bx-wrapper .bx-has-pager
+{
+    width: 100%;
+	position:absolute;
+	bottom:65px;
+	right:0;
+	text-align:center
+}
+
+.bx-wrapper .bx-pager.bx-default-pager
+{
+	display:inline-block;
+	border-radius:0;
+    position: static;
+    width: auto;
+    
+}
+
+
+.bx-wrapper .bx-pager.bx-default-pager a
+{
+	overflow:hidden;
+	width:12px;
+	height:12px;
+	margin:0 7px;
+	border-radius:0;
+	background:#fff;
+	border:3px solid #fff;
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a.active
+{
+	border-color:#ffba00;
+	background:none;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover
+{
+	border-color:#ffba00;
+	background:none;
+}
+
+
+.the-slider-control li	span i
+{
+	position:absolute;
+	right:20px;
+	top:calc(50% + 18px);
+	z-index:3;
+	text-align:center;
+	display:block;
+	width:70px;
+	height:70px;
+    line-height: 70px;
+    font-size: 40px;
+	border-radius:0;
+	color:#000;
+	background-color:#ffba00;
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.the-slider-control li	span#home-prev i
+{
+	right:auto;
+	left: 20px;
+}
+
+/* ------------------------------------------ */
+/*         About Us
+/* ------------------------------------------ */
+
+.AboutUs
+{
+	padding:60px 0 90px
+}
+
+.AboutUs h2
+{
+	float:right;
+	margin-left:75px;
+	color:#000000;
+	font-size:50px;
+	margin-top:195px;
+	font-family: "DinNextBold";
+}
+
+.AboutUs .list
+{
+	float:right;
+	margin-left:65px
+}
+
+.AboutUs .list li
+{
+	height:90px;
+	line-height:90px;
+	color:#000000;
+	font-size:20px;
+	padding-right:5px;
+	width:369px;
+	max-width:100%;
+	border-right:3px solid transparent;
+	border-bottom:1px solid #dedede;
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.AboutUs .list li i
+{
+	float:right;
+	font-size:40px;
+	color:#ffba00;
+	margin-left:10px;
+	width:60px;
+	height:100%;
+	line-height:90px;
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+	text-align:center
+}
+
+.AboutUs .list li:hover
+{
+	border-right-color:#000;
+	color:#000000;
+	border-bottom-color:#FFBA00;
+	background-color:#ffba00
+}
+
+.AboutUs .list li:hover i
+{
+	color:#fff
+}
+/* ------------------------------------------ */
+/*         Services
+/* ------------------------------------------ */
+
+.services
+{
+	padding:75px 0;
+	text-align:center;
+	background-color:#262831
+}
+
+.services .title
+{
+	color:#ffba00;
+	font-size:50px;
+	font-family: "DinNextBold";
+	margin-bottom:50px
+}
+
+.services .service
+{
+	margin-bottom:20px;
+	position:relative
+}
+
+.services .service .bgService
+{
+    background-color:rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:2
+}
+
+.services .service img
+{
+	position:absolute;
+	right:0;
+	top:0;
+	width:100%;
+	height:100%;
+	z-index:1
+}
+
+.services .service .servDetails
+{
+	position:relative;
+	z-index:4;
+	padding:50px 0 30px
+}
+
+.services .service:after
+{
+	content:"";
+	position:absolute;
+	width:100%;
+	height:100%;
+	z-index:3;
+	bottom:0;
+	right:0;
+	opacity:0;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,ffba00+100 */
+	background: rgb(0,0,0); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(255,186,0,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(255,186,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(255,186,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffba00',GradientType=0 ); /* IE6-9 */
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.services .service:hover:after
+{
+	opacity: 0.2
+	
+}
+
+.services .service .servDetails i
+{
+	width:105px;
+	height:105px;
+	background-color:#fff;
+	border-radius:50%;
+	color:#000;
+	text-align:center;
+	font-size:55px;
+	line-height:95px;
+	margin-bottom:25px;
+	display:inline-block;
+	position:relative;
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.services .service .servDetails i:after
+{
+	content:"";
+	width:100%;
+	height:100%;
+	border-radius:50%;
+	z-index:-1;
+	position:absolute;
+	right:0;
+	top:0;
+	background-color:#ffba00;
+	opacity:0.2;
+	-webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+}
+
+.services .service .servDetails h3
+{
+	color:#fff;
+	font-size:20px;
+	margin-bottom:50px;
+	font-family: "DinNextBold";
+}
+
+.services .service .servDetails a
+{
+	width:120px;
+	height:35px;
+	line-height:30px;
+	color:#fff;
+	display:block;
+	font-size:20px;
+	margin:0 auto
+}
+
+.services .service:hover .servDetails a
+{
+	background-color:#ffba00
+}
+
+.services .service:hover .servDetails i
+{
+	background-color:#ffba00
+}
+
+.services .service:hover .servDetails i:after
+{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+/* ------------------------------------------ */
+/*         branches
+/* ------------------------------------------ */
+
+.branches
+{
+	padding-top:70px;
+	text-align:center
+}
+
+.branches h2
+{
+	color:#000000;
+	font-size:50px;
+	font-family: "DinNextBold";
+	margin-bottom:40px
+}
+
+.branches span
+{
+	display:inline-block;
+	color:#000000;
+	font-size:20px;
+	margin-bottom:15px
+}
+
+.branches span:first-of-type
+{
+	margin-left:45px
+}
+
+.branches span i
+{
+	margin-left:10px;
+	font-size:25px
+}
+
+.branches iframe
+{
+	width:100%;
+	height:425px;
+	margin-bottom:-5px;
+	border:none
+}
+
+/* ------------------------------------------ */
+/*         Footer
+/* ------------------------------------------ */
+
+.footer
+{
+	background-color:#1b1c25;
+	padding:70px  0 35px;
+}
+
+.footer .titleFooter
+{
+	color:#fff;
+	font-size:20px;
+	font-family: "DinNextBold";
+	margin-bottom:50px;
+}
+
+.footer .formContact input,
+.footer .formContact textarea
+{
+	width:100%;
+	height:60px;
+	margin-bottom:25px;
+	border:1px solid #535460;
+	padding:0 20px;
+	color:#999999;
+	font-size:15px;
+	background:none;
+	line-height:55px;
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.footer .formContact input::-webkit-input-placeholder,
+.footer .formContact textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #999999;
+}
+.footer .formContact input::-moz-placeholder ,
+.footer .formContact textarea::-moz-placeholder { /* Firefox 19+ */
+  color: #999999;
+}
+
+.footer .formContact input:-ms-input-placeholder,
+.footer .formContact textarea:-ms-input-placeholder { /* IE 10+ */
+  color: #999999;
+}
+
+.footer .formContact input:-moz-placeholder,
+.footer .formContact textarea:-moz-placeholder { /* Firefox 18- */
+  color: #999999;
+}
+
+.footer .formContact input:focus,
+.footer .formContact textarea:focus
+{
+	border-color:#ffba00
+}
+
+
+.footer .formContact textarea
+{
+	height:115px;
+	padding:20px;
+	resize:none;
+	line-height:normal
+}
+
+.footer .formContact button
+{
+	width:100%;
+	height:60px;
+	background-color:#ffba00;
+	font-size:20px;
+	color:#000;
+	border:none;
+	display:block;
+	padding-bottom:5px;
+	line-height:55px;
+	font-family: "DinNextBold";
+	margin-bottom:30px;
+}
+
+.footer .contactInfo
+{
+	margin-bottom:60px;
+}
+
+.footer .contactInfo i
+{
+    font-size: 49px;
+    float: right;
+    width: 65px;
+    text-align: center;
+    color: #ffba00;
+    line-height: 54px;
+}
+
+.footer .contactInfo .infoDetails
+{
+	float:right;
+	width:80%;
+	padding-right:20px;
+}
+
+.footer .contactInfo .infoDetails h3
+{
+	color:#999999;
+	font-size:20px;
+	margin-bottom:15px
+}
+
+.footer .contactInfo .infoDetails span
+{
+	font-size:20px;
+	color:#d6d6d6;
+}
+
+.footer .footerDown p
+{
+	font-size:15px;
+	color:#d6d6d6;
+	margin-left:10px;
+	float:right;
+	margin-top:9px
+}
+
+.footer .footerDown p a
+{	
+	color:#ffba00
+}
+
+.footer .footerDown .socialFooter
+{
+	float:right;
+}
+
+.footer .footerDown .socialFooter li
+{
+	float:right;
+	margin-left:5px
+}
+
+.footer .footerDown .socialFooter li a
+{
+	width:45px;
+	height:45px;
+	line-height:46px;
+	color:#aaaaaa;
+	text-align:center;
+	border-radius:50%;
+	background-color:#101116;
+	font-size:20px;
+}
+
+.footer .footerDown .socialFooter li a:hover
+{
+	background-color:#ffba00;
+	color:#000
+}
+
+.footer .footerDown .logoTaha
+{
+	float:left
+}
+
+/* ------------------------------------------ */
+/*         Modal
+/* ------------------------------------------ */
+
+.Details-modal .modal-body
+{	
+	padding:55px
+}
+
+.Details-modal .modal-body img
+{
+	display:block;
+	margin:0 auto 25px;
+	max-width:100%;
+}
+
+.Details-modal h2
+{
+	font-family: "DinNextBold";
+	font-size:20px;
+	color:#000000;
+	margin-bottom:25px
+}
+
+.Details-modal .list li
+{
+	color:#000000;
+	font-size:20px;
+	margin-bottom:20px;
+	padding-right:30px;
+	position:relative
+}
+
+.Details-modal .list li:before
+{
+	content:"\f104";
+    font: normal normal normal 14px/1 FontAwesome;
+    position:absolute;
+    right:0;
+    top:0;
+    font-size:30px;
+    color:#000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

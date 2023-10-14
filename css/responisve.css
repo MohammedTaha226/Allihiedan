@@ -1,0 +1,272 @@
+/*Big Size Screens*/
+@media (min-width: 991px) and (max-width: 1200px)
+{
+	
+	.AboutUs h2
+	{
+		margin-left:40px;
+		font-size:35px
+	}
+	
+	.AboutUs .list
+	{
+		margin-left:35px;
+	}
+	
+	.AboutUs .list li
+	{
+		width:335px;
+		font-size:18px;
+	}
+	.services .service .servDetails h3
+	{
+		font-size:16px;
+		
+	}
+
+}
+
+/* small Screens & tablets & Smart phone */
+@media (max-width: 991px) 
+{
+
+	.header
+	{
+		background-color:#fff;
+		border-color: #dedede;
+	}
+	
+	.header .logo
+	{
+		width: 170px;
+		margin-top:20px
+	}
+
+	.header .openMenu
+	{
+		display:block
+	}
+	
+	.header .menu
+	{
+		position:absolute;
+		top:100%;
+		left:0;
+		display:none;
+		width:100%;
+		border-top:1px solid #dedede;
+		border-bottom:1px solid #dedede;
+		padding-bottom:10px;
+		background-color:#fff;
+	}
+	
+	.header .menu li
+	{
+		float:none;
+	}
+	
+	.header .menu li a,
+	.header.navbar-fixed-top .menu li a
+	{
+		height:50px;
+		line-height:45px;
+		padding:0 15px;
+		color:#000;
+	}
+	
+	.header .menu li a i
+	{
+		display:inline-block;
+		font-size:20px
+	}
+	
+	.slider img
+	{
+		height:370px
+	}
+	
+	.sliderDetails
+	{
+		padding-top:125px
+	}
+	
+	.sliderDetails h2
+	{
+		font-size:35px;
+		margin-bottom:25px
+	}
+	
+	.sliderDetails p
+	{	
+		font-size:20px;
+		line-height:30px;
+	}
+	
+	.the-slider-control li span i
+	{
+		width:35px;
+		height:35px;
+		line-height:35px;
+		top:calc(50% - 35px);
+		font-size:23px
+	}
+	
+	.AboutUs h2
+	{
+		margin-top:0;
+		margin-bottom:30px;
+		float:none;
+		font-size:35px
+	}
+	
+	.AboutUs .list
+	{
+		float:none;
+		margin-left:0
+	}
+	
+	.AboutUs .list li
+	{
+		width:100%
+	}
+	
+	.services .service
+	{
+		max-width:260px;
+		margin-left:auto;
+		margin-right:auto
+	}
+	
+	.footer .footerDown
+	{
+		text-align:center
+	}
+	
+	.footer .footerDown p
+	{
+		float:none;
+		margin-bottom:20px
+	}
+	
+	.footer .footerDown .socialFooter
+	{
+		float:none;
+		margin-bottom:20px
+	}
+	
+	.footer .footerDown .socialFooter li
+	{
+		float:none;
+		display:inline-block
+	}
+
+	.footer .footerDown .logoTaha
+	{
+		float:none;
+	}
+
+
+
+
+	
+	
+}
+
+/* Small Screens */
+@media (min-width: 768px) and (max-width: 991px) 
+{
+	
+	
+}
+
+/* Mobile & Tablets */
+@media (max-width: 767px) 
+{
+	.branches span
+	{
+		display:block
+	}
+	
+	.branches span:first-of-type
+	{
+		margin-left:0
+	}
+	
+}
+
+/* Tablets */
+@media (min-width:480px) and (max-width: 767px)
+{
+
+}
+
+/* Mobile */
+@media (max-width: 479px) 
+{
+	.header
+	{
+		padding:0 15px
+	}
+	
+	
+	.sliderDetails p
+	{
+		font-size:15px
+	}
+	
+	.sliderDetails h2
+	{
+		font-size:25px;
+		margin-bottom:15px
+	}
+	
+	.bx-wrapper .bx-has-pager
+	{
+		display:none;
+	}
+	
+	.the-slider-control li span i
+	{
+		top: calc(50% + 35px);
+		opacity: 0.5
+	}
+	
+	.the-slider-control li span i:hover
+	{
+		opacity:1
+	}
+	
+	.AboutUs .list li
+	{
+		height:auto;
+		padding-bottom:15px;
+		line-height:normal;
+		text-align:center
+	}
+	
+	.AboutUs .list li i
+	{
+		float:none;
+		display:block;
+		width:auto;
+		line-height:normal
+	}
+	
+	.footer .contactInfo i
+	{
+		font-size:35px;
+		width:45px
+	}
+
+	.Details-modal .modal-body
+	{
+		padding:15px
+	}
+
+
+
+
+	
+	
+	
+}
